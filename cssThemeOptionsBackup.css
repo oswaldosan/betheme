@@ -1,0 +1,226 @@
+.extras {
+    display: none;
+}
+
+.topimg {
+	height: 780px;
+      
+}
+
+.TextoUp {
+ 
+
+}
+
+.textoUpContent {
+   padding-top: 100px; 
+   padding-bottom: 100px; 
+}
+
+.TextoUp h2{
+    line-height: 70px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 55px;
+    letter-spacing: 0.88px;
+
+}
+
+@media only screen and (max-width: 750px) {
+.TextoUp h2{
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.58px;
+   }
+.topimg {
+	height: 450px;
+        padding: 180px;
+
+   }
+.textoUpContent {
+   padding-top: 10px; 
+   padding-bottom: 10px; 
+}
+
+
+}
+
+.submenusitosKnow {
+   display: none; 
+}
+
+.submenusitosKnowShow {
+   display: block;
+}
+
+.alturita {
+      height: 200px;
+      
+}
+
+.contactTopbar {
+    color: #fff;
+    margin-top: 13px;
+}
+
+.contactTopbarMobile {
+   display: none;
+}
+
+@media only screen and (max-width: 750px) {
+.contactTopbar {
+    display: none;
+}
+
+.contactTopbarMobile {
+   display: block;
+  margin-top: 12px;
+  margin-right: 7px;
+}
+
+
+ }
+
+.headeCourse{ 
+    background-position: center;
+    background-size: cover;
+    padding: 120px;
+}
+
+.bodyCourse{
+    background-color: #1F2B48;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 8px;
+    text-align:left;
+} 
+
+.bodyCourse h1{
+   color: #fff;
+   text-align: left;
+   font-size: 20px;
+   display: inline-block;
+   margin-bottom:  2px;
+}
+
+
+.bodyCourse span{
+text-align: left;
+font: Medium 17px Montserrat;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+display: inline-block;
+margin-left: 75px;
+}
+
+
+.botoncursos {
+margin:0 auto;
+width: 250px;
+padding: 10px;
+border: 2px solid #75FED0;
+text-align: center;
+font: Bold 16px/24px Montserrat;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+text-transform: uppercase;
+  transition: background-color 0.5s ease;
+}
+
+.botoncursos:hover {
+background-color:#75FED0; 
+color: #000;
+
+}
+
+.topCourse {
+   padding-top: 1px;
+   border-top: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.topCourse h1 {
+   color: #fff;
+   text-align: left;
+   font-size: 15px;
+   display: inline-block;
+   margin-left: 5px;
+}
+
+.cuerpoCourse {
+   text-align: left;
+   padding: 15px;
+}
+
+.cuerpoCourse p{
+   color: #D0E5FF;
+  font-size: 13px;
+}
+.cuerpoCourse h3{
+  font-size: 15px;
+  text-align:left;
+   color: #fff;
+   margin-bottom: 0px;
+
+}
+
+.footerCourses {
+     margin-top: 0;
+     padding: 10px;
+     border-top: 1px solid rgba(255,255,255,0.2);
+     display: flex;
+     justify-content: space-around;
+}
+
+.botonDiv {
+position: relative;
+padding-top: 4px;
+}
+
+.botonCoursesBox {
+position: relative;
+height: 15px;
+width: 110px;
+padding: 10px;
+border: 2px solid #75FED0;
+text-align: center;
+font: Bold 11px Montserrat;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+text-transform: uppercase;
+transition: background-color 0.5s ease;
+}
+
+.botonCoursesBox:hover {
+background-color:#75FED0; 
+color: #000;
+
+}
+
+.manchaVerde {
+    position:absolute;
+    left: 1%;
+    bottom: 3%;
+    height: 55px; 
+    width: 5px;
+    background: #75FED0;
+    }
+
+.priceCourses {
+    display: inline-block;
+}
+
+.priceTag{
+   color: #D0E5FF;
+   font-size: 11px;
+   margin: 0;
+ 
+}
+
+.priceNumer{
+
+   color: #fff;
+   font-size: 18px;
+
+}
